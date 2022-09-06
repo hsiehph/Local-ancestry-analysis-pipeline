@@ -1,0 +1,70 @@
+---
+BED_removed: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/maskFiles/myHGDP.hardmask.bed
+
+sampleFile4RFMix: 
+    RFMix1KG3ContinentPops_usingSGDPAMRandNDL: inputFiles/samples.1KG_3ContinentalPops_usingSGDPAMRandNDL.txt
+    RFMix1KG5ContinentPops_usingSGDPAMRandNDL: inputFiles/samples.1KG_5ContinentalPops_usingSGDPAMRandNDL.txt
+    RFMix1KG3ContinentPops_usingSGDPAMRandDNS: inputFiles/samples.1KG_3ContinentalPops_usingSGDPAMRandDNS.txt
+    RFMix1KG5ContinentPops_usingSGDPAMRandDNS: inputFiles/samples.1KG_5ContinentalPops_usingSGDPAMRandDNS.txt
+
+
+list_chroms: "['chr' + str(x) for x in range(1,23)]"
+cutoff_genLength: ["1_0", "0_5"]
+phasedSNV_BEDs: 
+#    hifi_HG00512: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_HG00512_snv_snv.bed
+#    hifi_HG00513: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_HG00513_snv_snv.bed
+    hifi_HG00514: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_HG00514_snv_snv.bed
+    hifi_HG00731: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_HG00731_snv_snv.bed
+    hifi_HG00732: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_HG00732_snv_snv.bed
+    hifi_HG00733: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_HG00733_snv_snv.bed
+#    hifi_NA19238: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_NA19238_snv_snv.bed
+#    hifi_NA19239: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_NA19239_snv_snv.bed
+    hifi_NA19240: /net/eichler/vol27/projects/human_diversity/nobackups/otherAnalyses/archived_HGSVC_LAI/HGSVC_LAI/inputBEDfiles/hifi_NA19240_snv_snv.bed
+
+geneticMaps: 
+    chr1: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr1.GRCh38.rename.forRFMix.map
+    chr2: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr2.GRCh38.rename.forRFMix.map
+    chr3: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr3.GRCh38.rename.forRFMix.map
+    chr4: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr4.GRCh38.rename.forRFMix.map
+    chr5: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr5.GRCh38.rename.forRFMix.map
+    chr6: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr6.GRCh38.rename.forRFMix.map
+    chr7: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr7.GRCh38.rename.forRFMix.map
+    chr8: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr8.GRCh38.rename.forRFMix.map
+    chr9: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr9.GRCh38.rename.forRFMix.map
+    chr10: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr10.GRCh38.rename.forRFMix.map
+    chr11: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr11.GRCh38.rename.forRFMix.map
+    chr12: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr12.GRCh38.rename.forRFMix.map
+    chr13: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr13.GRCh38.rename.forRFMix.map
+    chr14: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr14.GRCh38.rename.forRFMix.map
+    chr15: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr15.GRCh38.rename.forRFMix.map
+    chr16: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr16.GRCh38.rename.forRFMix.map
+    chr17: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr17.GRCh38.rename.forRFMix.map
+    chr18: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr18.GRCh38.rename.forRFMix.map
+    chr19: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr19.GRCh38.rename.forRFMix.map
+    chr20: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr20.GRCh38.rename.forRFMix.map
+    chr21: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr21.GRCh38.rename.forRFMix.map
+    chr22: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/geneticMaps_hg38_forRFMix/plink.chr22.GRCh38.rename.forRFMix.map
+
+refPanel_VCFs:
+    chr1: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr1_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr2: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr2_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr3: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr3_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr4: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr4_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr5: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr5_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr6: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr6_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr7: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr7_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr8: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr8_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr9: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr9_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr10: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr10_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr11: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr11_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr12: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr12_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr13: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr13_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr14: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr14_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr15: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr15_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr16: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr16_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr17: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr17_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr18: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr18_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr19: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr19_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr20: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr20_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr21: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr21_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
+    chr22: /net/eichler/vol27/projects/human_diversity/nobackups/hsiehph/genomicData/1KG_VCF/1KG_VCF_hg38_2019_and_SGDP/chr22_SGDPw3ARC_all1KG.maf001.biallelic.nomissing.hg38.vcf.gz
